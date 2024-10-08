@@ -1,0 +1,146 @@
+html,
+body{
+    margin:0;
+    padding:0;
+    font-family: serif;
+}
+body{
+    background-color:chartreuse ;
+
+}
+button{
+    background-color: chartreuse;
+    color:black;
+    border-radius: 3%;
+}
+.name{
+    text-align: center;
+}
+
+.footer{
+    background-color: black;
+    color:white;
+    border-radius: 3%;
+    margin-top: 30%;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color:black;
+    margin-bottom: -10px;
+}
+
+
+p,q{
+    font-size:1.2rem;
+}
+
+q{
+    font-weight:400;
+    line-height:1.5rem;
+    text-align: left;
+}
+
+.customer-revs{
+    position: absolute;
+    align-items: center;
+    top:20%;
+    left:30%;
+    right:30%;
+    transform:translateY(-50%, -50%);
+    background-color:black;
+}
+
+.slideshow-container{
+    position:relative;
+    width:60rem;
+    max-width:80%;
+    margin:0 auto;
+}
+
+
+img{
+    width:400px;
+    height:auto;
+    border-radius: 10%;
+    margin-bottom:30px;
+    border: 5p solid turquoise;
+}
+
+
+section .myslides{
+    background-color: black;
+    border-radius: 3%;
+    border: 1p solid black;
+    color:white;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.content {
+    padding: 20px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    margin-bottom: 10px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    margin: 5px 0;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-section p {
+    margin-top: 10px;
+}
